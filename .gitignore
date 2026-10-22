@@ -1,0 +1,28 @@
+# Diagnostic bundles and reports from the server
+/20[0-9][0-9]*/
+*.tar.gz
+*.tgz
+*.zip
+*.log
+
+# Generated local test evidence
+/tests/run.*/
+/tests/cancel.*/
+/tests/drain.*/
+
+# Local credentials and server configuration
+.env
+.env.*
+*.pem
+*.key
+zabbix_server.conf
+zabbix_server.conf.d/
+.aws/
+
+# Local tooling and editor state
+.agents/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
